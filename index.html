@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Full Stack Web Developer</p>
+            <h1>Hey..,I'm <span>Vaishnavi</span> Mali<br> From India</h1>
+        </div>
+    </div>
+</div>
+<!---------------------------------- About------------------------------------------ -->
+<div id="About">
+    <div class="container">
+   <div class="row">
+    <div class="about-col-1">
+        <img src="imges/fina.jpg">
+    </div>
+    <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+        <p>Enthusastic Developer with strong inter personal
+            skills.I am Excellent Leadership qualities and also always ready 
+            to learn new things.Ready To Abroad....
+        </p>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Internship</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Full Stack Web Developer</span><br>Desgining Web/App Interfaces</li>
+                    <li><span>Soft Skill Trainer</span><br>Soft Skills(Public Speaking etc)</li>
+                    <li><span>Entrepreneurship</span><br>Starup ideas</li>
+                     </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2023- Current</span><br>Full Stack Web Developer</li>
+                    <li><span>2022-2023</span><br>Soft Skill Trainer</li>
+                    <li><span>2021</span><br>Intern at "Lets Grow"</li>
+                     </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2023</span><br>BTech from SSWCOE Solapur </li>
+                    <li><span>2021</span><br>Digital Mantra Training from Solapur</li>
+                    <li><span>2020</span><br>MAP from Solapur </li>
+                     </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+<!-----------------services---------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Desgining</h2>
+                <p>Awesome Website with latest Features.Here you can interact with 
+                    many Networks from all over the world.
+                </p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Soft Skill (Trainer)</h2>
+                <p>Soft Skills like Public speaking,Group Discussion
+                    Debate such kind of activities helps to built 
+                    Soft skills.
+                </p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa fa-app-store"></i>
+                <h2>Entrepreneurship</h2>
+                <p>Starup ideas Chance to interact with many great
+                    young Minds ang great Mentors all over the world.
+                </p>
+                    <a href="#">Learn more</a>
+            </div>
+          </div>
+    </div>
+</div>
+
+<!--------------------------Portfolio-------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="imges/work1.jpg">
+                <div class="layer">
+                    <h3>Website for Hostelers</h3>
+                    <p>Website is specially designed for Hostelers 
+                        its easy to use user can interact easily  
+                        Website includes various features.  </p>
+                </div>
+             </div>
+             <div class="work">
+                <img src="imges/ss.jpg">
+                <div class="layer">
+                    <h3>Soft Skils(Trainer)</h3>
+                    <p> SoftSkills are vital part of every professionals 
+                        through which they can interact with many Networks
+                        and get more Confident and grab more further pprtunity to shaowcase
+                        themseleves.
+                    </p>
+                </div>
+             </div>
+             <div class="work">
+                <img src="imges/w1.jpg">
+                <div class="layer">
+                    <h3>Entrepreneurship</h3>
+                    <p>Startup is demanding in todays world
+                        here every individual can be more enhanced and 
+                    get more knowledgeable  </p>
+                </div>
+             </div>
+
+        </div>
+        <a href="#"class="btn">See More</a>
+
+    </div>
+</div>
+<!-----------contact---------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>vmali5317@gmail.com</p>
+                <p>1234567891</p>
+                <div class="social-icons">
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
+                <a href="imges/shraddha.pdf.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Nmae" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Vaishnavi. Happy New 2k23</p>
+    </div>
+</div>
+
+
+<script>
+
+     var tablinks = document.getElementsByClassName("tab-links");
+     var tabcontents = document.getElementsByClassName("tab-contents");
+
+     function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");   
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");  
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+     }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby4yr1gagP7vR1sEOjb8_xQY37utne4XbOZG1N5-oirA9mxh0CaTOauBuEmKvYk4Hc7iQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Submitted Sucessfully"
+            setTimeout(function(){
+              msg.innerHTML = ""
+            },5000)
+            form.reset()
+    
+    })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
